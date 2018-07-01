@@ -1,7 +1,7 @@
 // DEPENDENCIES
 const express = require("express"),
   bodyParser = require("body-parser"),
-  PORT = process.env.PORT || 3000,
+  PORT = process.env.PORT || 3001,
   app = express();
 
 // BODY PARSER CONFIG

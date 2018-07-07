@@ -7,6 +7,7 @@ const express = require("express"),
 // BODY PARSER CONFIG
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+
 app.use(express.static("public"));
 
 // SYNC THE SQL DB AND THEN LISTEN TO PORT
@@ -14,4 +15,4 @@ app.use(express.static("public"));
 
 app.listen(PORT, () => {
   console.log(`Listening on PORT: ${PORT}`);
-}); // END THEN
+});

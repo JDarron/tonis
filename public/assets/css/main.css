@@ -261,7 +261,7 @@ header.masthead .scroll-down .btn:active, header.masthead .scroll-down .btn:focu
   }
   header.masthead .masthead-img {
     max-width: 250px;
-    max-height: 250px;
+    max-height: 500px;
   }
   header.masthead .masthead-title {
     font-size: 5rem;
